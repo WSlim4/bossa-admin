@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publicacoes",
+  "info": {
+    "name": "Publicacoe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "months",
+  "info": {
+    "name": "Month"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "schedule": {
+      "model": "schedule",
+      "via": "months"
+    },
+    "events": {
+      "via": "month",
+      "collection": "event"
+    }
+  }
+}

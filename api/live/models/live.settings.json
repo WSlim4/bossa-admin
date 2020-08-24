@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lives",
+  "info": {
+    "name": "Live"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
