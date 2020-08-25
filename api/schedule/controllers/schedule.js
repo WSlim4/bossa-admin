@@ -13,4 +13,3 @@ module.exports = {
         return await strapi.query('schedule').findOne({id: ctx.params.id}, ['months', 'months.events']);
       },
 };
-};
