@@ -13,8 +13,8 @@
       "type": "string"
     },
     "schedule": {
-      "model": "schedule",
-      "via": "months"
+      "via": "months",
+      "model": "schedule"
     },
     "events": {
       "via": "month",
