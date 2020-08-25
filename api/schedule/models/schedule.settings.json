@@ -13,8 +13,8 @@
       "type": "string"
     },
     "months": {
-      "via": "schedule",
-      "collection": "month"
+      "collection": "month",
+      "via": "schedule"
     }
   }
 }
