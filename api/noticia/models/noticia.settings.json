@@ -1,27 +1,27 @@
 {
   "kind": "collectionType",
-  "collectionName": "lives",
+  "collectionName": "noticias",
   "info": {
-    "name": "Live"
+    "name": "Noticia"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "video_url": {
-      "type": "string"
+    "text": {
+      "type": "richtext"
     },
     "title": {
       "type": "string"
     },
-    "introduction": {
+    "intro": {
       "type": "text"
     },
-    "theme_color": {
-      "type": "string"
+    "date": {
+      "type": "datetime"
     },
-    "image": {
+    "Cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

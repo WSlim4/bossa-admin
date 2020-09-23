@@ -12,10 +12,6 @@
     "name": {
       "type": "string"
     },
-    "schedule": {
-      "via": "months",
-      "model": "schedule"
-    },
     "events": {
       "via": "month",
       "collection": "event"

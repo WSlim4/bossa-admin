@@ -1,20 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "schedules",
+  "collectionName": "autors",
   "info": {
-    "name": "Schedule"
+    "name": "Autor"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "nome": {
       "type": "string"
     },
-    "months": {
-      "collection": "month",
-      "via": "schedule"
+    "galerias": {
+      "via": "autor",
+      "collection": "galeria"
     }
   }
 }

@@ -1,36 +1,34 @@
 {
   "kind": "collectionType",
-  "collectionName": "lives",
+  "collectionName": "clippings",
   "info": {
-    "name": "Live"
+    "name": "Clipping"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "video_url": {
-      "type": "string"
-    },
     "title": {
       "type": "string"
     },
-    "introduction": {
-      "type": "text"
-    },
-    "theme_color": {
-      "type": "string"
-    },
-    "image": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false
+    },
+    "intro": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

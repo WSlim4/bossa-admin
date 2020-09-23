@@ -1,33 +1,25 @@
 {
   "kind": "collectionType",
-  "collectionName": "lives",
+  "collectionName": "releases",
   "info": {
-    "name": "Live"
+    "name": "Release"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "video_url": {
-      "type": "string"
-    },
     "title": {
       "type": "string"
     },
-    "introduction": {
-      "type": "text"
+    "date": {
+      "type": "date"
     },
-    "theme_color": {
-      "type": "string"
-    },
-    "image": {
+    "file": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "files"
       ],
       "plugin": "upload",
       "required": false

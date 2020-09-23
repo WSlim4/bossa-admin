@@ -9,10 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "video_url": {
-      "type": "string"
-    },
-    "title": {
+    "artist": {
       "type": "string"
     },
     "link": {
@@ -28,6 +25,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

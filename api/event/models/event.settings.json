@@ -21,6 +21,9 @@
     "month": {
       "model": "month",
       "via": "events"
+    },
+    "time": {
+      "type": "string"
     }
   }
 }

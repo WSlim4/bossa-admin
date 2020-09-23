@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/schedules",
-      "handler": "schedule.find",
+      "path": "/clippings",
+      "handler": "clipping.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/schedules/count",
-      "handler": "schedule.count",
+      "path": "/clippings/count",
+      "handler": "clipping.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/schedules/:id",
-      "handler": "schedule.findOne",
+      "path": "/clippings/:id",
+      "handler": "clipping.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/schedules",
-      "handler": "schedule.create",
+      "path": "/clippings",
+      "handler": "clipping.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/schedules/:id",
-      "handler": "schedule.update",
+      "path": "/clippings/:id",
+      "handler": "clipping.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/schedules/:id",
-      "handler": "schedule.delete",
+      "path": "/clippings/:id",
+      "handler": "clipping.delete",
       "config": {
         "policies": []
       }
